@@ -10,7 +10,7 @@ const OrderOnline = () => {
         <h2>
           ORDER <span>ONLINE</span>!
         </h2>
-      <OrderOnlineText/>
+      {/* <OrderOnlineText/> */}
         <Link className="btn-primary" href="/login">
           Order Now
         </Link>

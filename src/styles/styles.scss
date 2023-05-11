@@ -34,7 +34,7 @@ li {
   color: $font-black;
   @media (max-width: $breakpoint-phone) {
     padding: 12px 22px;
-      }
+  }
 }
 .width {
   max-width: 1640px;
@@ -43,7 +43,6 @@ li {
   @media (max-width: $breakpoint-phone) {
     width: 90vw;
   }
-  
 }
 body {
   font-family: GothamRounded, sans-serif;
@@ -57,7 +56,7 @@ body {
   height: 1114px;
   @media (max-width: $breakpoint-phone) {
     height: 900px;
-      }
+  }
 }
 
 header {
@@ -67,39 +66,38 @@ header {
   padding: 40px 0;
 
   @media (max-width: $breakpoint-phone) {
-    padding: 20px 0 0 0 ;
-      }
-      .mobile-nav{
-        display: none;
-        width: 31px;
-        flex-direction: column;
-        gap: 5px;
-        .nav-line{
-          height: 3px;
-          width: 100%;
-          border-radius: 3px;
+    padding: 20px 0 0 0;
+  }
+  .mobile-nav {
+    display: none;
+    width: 31px;
+    flex-direction: column;
+    gap: 5px;
+    .nav-line {
+      height: 3px;
+      width: 100%;
+      border-radius: 3px;
 
-          background-color: $font-white;
-        }
-        @media (max-width: $breakpoint-phone) {
-          display: flex;
-            }
-      }
-  .logo{
+      background-color: $font-white;
+    }
+    @media (max-width: $breakpoint-phone) {
+      display: flex;
+    }
+  }
+  .logo {
     display: flex;
     align-items: center;
-    img{
+    img {
       @media (max-width: $breakpoint-phone) {
         width: 180px;
         height: auto;
-
       }
     }
   }
 }
 .header-nav {
   @media (max-width: $breakpoint-phone) {
-display: none;
+    display: none;
   }
   ul {
     display: flex;
@@ -118,7 +116,7 @@ display: none;
   gap: 31px;
   @media (max-width: $breakpoint-phone) {
     display: none;
-      }
+  }
 }
 .header-order-now {
   display: flex;
@@ -140,14 +138,14 @@ display: none;
     justify-content: flex-start;
     gap: 80px;
     margin-top: 80px;
-      }
+  }
 }
 .showcase-text {
   max-width: 720px;
   // margin-top: 170px;
   @media (max-width: $breakpoint-phone) {
     max-width: 100%;
-      }
+  }
   h1 {
     font-size: 96px;
     color: $font-white;
@@ -157,7 +155,7 @@ display: none;
     @media (max-width: $breakpoint-phone) {
       font-size: 52px;
       // text-align: center;
-        }
+    }
     span {
       color: $color-primary;
     }
@@ -171,10 +169,10 @@ display: none;
     height: auto;
     transform: translateX(90px);
     @media (max-width: $breakpoint-phone) {
-   width: 95%;
-   height: auto;
-   transform: translateX(0);
-        }
+      width: 95%;
+      height: auto;
+      transform: translateX(0);
+    }
   }
 }
 .section2 {
@@ -194,7 +192,6 @@ display: none;
   animation: left-to-right-slider 24s linear infinite;
   @media (max-width: $breakpoint-phone) {
     animation: left-to-right-slider-phone 24s linear infinite;
-   
   }
 }
 .slider-images2 {
@@ -224,7 +221,6 @@ display: none;
   }
 }
 
-
 @keyframes left-to-right-slider {
   0% {
     transform: translateX(0);
@@ -243,12 +239,12 @@ display: none;
 }
 .slider-image {
   @media (max-width: $breakpoint-phone) {
-    img{
+    img {
       width: 200px;
       height: auto;
       padding: 30px;
     }
-      }
+  }
   &:nth-child(odd) {
     min-width: 255px;
     height: 245px;
@@ -260,7 +256,7 @@ display: none;
     @media (max-width: $breakpoint-phone) {
       min-width: 200px;
       height: 190px;
-        }
+    }
   }
   &:nth-child(even) {
     min-width: 365px;
@@ -273,7 +269,7 @@ display: none;
     @media (max-width: $breakpoint-phone) {
       min-width: 260px;
       height: 190px;
-        }
+    }
   }
 }
 
@@ -289,21 +285,19 @@ display: none;
   }
 }
 .about-us-img {
-
   img {
     width: 860px;
     height: auto;
     @media (max-width: $breakpoint-phone) {
-width: 100%;
+      width: 100%;
     }
   }
-
 }
-.about-shadow{
+.about-shadow {
   margin-left: 10px;
   transform: scale(1.6);
   @media (max-width: $breakpoint-phone) {
-   display: none;
+    display: none;
   }
 }
 .about-us-text {
@@ -315,7 +309,6 @@ width: 100%;
     @media (max-width: $breakpoint-phone) {
       font-size: 12px;
     }
-
   }
   h2 {
     color: $font-white;
@@ -394,8 +387,8 @@ width: 100%;
     color: $font-black;
     margin-bottom: 60px;
     @media (max-width: $breakpoint-phone) {
-font-size: 16px;
-margin-bottom: 40px;
+      font-size: 16px;
+      margin-bottom: 40px;
     }
   }
 }
@@ -417,30 +410,29 @@ margin-bottom: 40px;
   }
 }
 
-
-.sign-in{
+.sign-in {
   background-color: $font-black;
   width: 100%;
   height: 100vh;
   padding: 120px 0 80px 0;
 
   // margin-top: 100px;
-  .form{
-      max-width: 360px;
-  margin: 0 auto;
+  .form {
+    max-width: 360px;
+    margin: 0 auto;
 
-  form{
-    display: flex;
-    //  gap: 30px;
-  flex-direction: column; 
+    form {
+      display: flex;
+      //  gap: 30px;
+      flex-direction: column;
+    }
+    h1 {
+      text-align: center;
+      color: $font-white;
+      font-size: 38px;
+    }
   }
-  h1{
-    text-align: center;
-    color: $font-white;
-    font-size: 38px;
-  }
-  }
-  input{
+  input {
     width: 100%;
     padding: 8px 22px;
     border-radius: 25px;
@@ -450,45 +442,42 @@ margin-bottom: 40px;
   }
   input[type="submit"] {
     text-transform: uppercase;
-   width: fit-content;
-   margin: 0 auto;
-   border: none;
-   padding: 8px 16px;
+    width: fit-content;
+    margin: 0 auto;
+    border: none;
+    padding: 8px 16px;
     font-size: 16px;
     cursor: pointer;
     margin-top: 30px;
-
   }
-.error{
-  color: rgb(227, 96, 96);
-  font-size: 12px;
-  margin-top: 6px;
-
+  .error {
+    color: rgb(227, 96, 96);
+    font-size: 12px;
+    margin-top: 6px;
+  }
 }
-}
-.user{
+.user {
   max-width: 400px;
   margin: 0 auto;
   color: $font-white;
-  h1{
-font-size: 28px;
-    span{
+  h1 {
+    font-size: 28px;
+    span {
       color: $color-primary;
     }
   }
-
 }
-.logout-btn{
+.logout-btn {
   text-transform: uppercase;
   width: fit-content;
   border: none;
   padding: 8px 16px;
-   font-size: 14px;
-   cursor: pointer;
-   margin-top: 30px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 30px;
 }
 
-.skeleton-container{
+.skeleton-container {
   display: flex;
   flex-direction: column;
   gap: 20px;
