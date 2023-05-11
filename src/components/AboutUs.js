@@ -26,7 +26,7 @@ const AboutUs = () => {
         <h2>
           ABOUT <span>US</span>
         </h2>
-        <AboutUsText />
+        {/* <AboutUsText/> */}
         <Link className="btn-primary" href="/login">
           Order Now
         </Link>

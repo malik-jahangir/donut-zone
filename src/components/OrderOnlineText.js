@@ -3,7 +3,7 @@ import React from "react";
 async function fetchData() {
   const res = await fetch("https://jsonplaceholder.typicode.com/comments", {});
   const data = await res.json();
-//   console.log(data[1].body);
+
   return data;
 }
 
