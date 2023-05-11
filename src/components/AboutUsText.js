@@ -1,6 +1,8 @@
 import React from "react";
 async function fetchData() {
-  const res = await fetch("https://jsonplaceholder.typicode.com/comments", {});
+  const res = await fetch("https://jsonplaceholder.typicode.com/comments", {
+    cache: "no-store",
+  });
   const data = await res.json();
   return data;
 }
