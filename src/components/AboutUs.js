@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import AboutUsText from "./AboutUsText";
+import AboutUsText from "@/components/AboutUsText";
 
 const AboutUs = () => {
   return (

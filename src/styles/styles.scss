@@ -121,7 +121,7 @@ header {
 .header-order-now {
   display: flex;
   align-items: center;
-  // gap: 10px;
+  gap: 10px;
 }
 
 .showcase {
@@ -285,6 +285,7 @@ header {
   }
 }
 .about-us-img {
+  max-width: 860px;
   img {
     width: 860px;
     height: auto;
@@ -330,8 +331,10 @@ header {
     max-width: 655px;
     color: $font-white;
     margin-bottom: 60px;
-    font-size: 16px;
-    margin-bottom: 40px;
+    @media (max-width: $breakpoint-phone) {
+      font-size: 16px;
+      margin-bottom: 40px;
+    }
   }
 }
 
