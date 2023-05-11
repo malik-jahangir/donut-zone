@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import OrderOnlineText from "./OrderOnlineText";
+import OrderOnlineText from "@/components/OrderOnlineText";
 const OrderOnline = () => {
   return (
     <div className="width order-online">
@@ -10,7 +10,7 @@ const OrderOnline = () => {
         <h2>
           ORDER <span>ONLINE</span>!
         </h2>
-      {/* <OrderOnlineText/> */}
+      <OrderOnlineText/>
         <Link className="btn-primary" href="/login">
           Order Now
         </Link>
