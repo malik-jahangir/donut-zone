@@ -4,6 +4,8 @@ import SliderImages from "@/components/SliderImages";
 import AboutUs from "@/components/AboutUs";
 import OrderOnline from "@/components/OrderOnline";
 import ImageBanner from "@/components/ImageBanner";
+import Location from "@/components/Location";
+import Testimonials from "@/components/Testimonials";
 export default function Home() {
   return (
     <>
@@ -18,6 +20,12 @@ export default function Home() {
       <section className="section3">
         <OrderOnline />
         <ImageBanner />
+      </section>
+      <section className="section4">
+        <Location/>
+      </section>
+      <section className="section5">
+<Testimonials/>
       </section>
     </>
   );
