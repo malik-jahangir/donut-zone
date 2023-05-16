@@ -18,5 +18,8 @@
     "react-dom": "18.2.0",
     "react-hook-form": "^7.43.9",
     "sass": "^1.62.1"
+  },
+  "devDependencies": {
+    "expose-loader": "^4.1.0"
   }
 }
